@@ -1,3 +1,24 @@
-.jumbotron-container {
-    margin-top: 60px;
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,500,700,900&display=swap');
+
+
+/* Colours */
+
+
+
+/* Callout */
+
+.callout-background {
+    height: 85vh;
+    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    margin-top: 120px;
+    
 }
