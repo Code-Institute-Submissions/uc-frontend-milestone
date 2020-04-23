@@ -18,7 +18,15 @@
     background-size: cover;
 }
 
+.callout-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(41, 44, 121, 0.5);
+}
+
 .jumbotron {
     margin-top: 120px;
-    
 }
