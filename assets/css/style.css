@@ -90,6 +90,30 @@
     border: none;
 }
 
+/* About */
+
+.about-background {
+    height: 100vh;
+    background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.about-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(41, 44, 121, 0.8);
+}
+
 /* Forms */
 
 form {
