@@ -1,17 +1,64 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,500,700,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Lato:200,300,400,600|Raleway:200,300,400,600&display=swap');
 
 /* Colours */
 
+/* Text */
 
+.contrast-heading {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #fafaff;
+}
+
+.contrast-paragraph {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: #fafaff;
+}
+
+.section-header {
+    font-family: "Lato", sans-serif;
+    color: #292c79;
+    font-weight: 200;
+}
+
+.sub-header {
+    font-family: "Lato", sans-serif;
+    color: #292c79;
+    font-weight: 200;
+}
+
+.section-text {
+    font-family: "Raleway", sans-serif;
+    color: #202020;
+    font-weight: 300;
+}
+
+/* Navbar */
+
+.navbar-brand {
+    font-family: "Lato", sans-serif;
+    color: #292c79 !important;
+    font-weight: 400;
+}
+
+.navbar li {
+    font-family: "Lato", sans-serif;
+    color: #202020 !important;
+    font-weight: 400;
+}
+
+.navbar-toggler {
+    border: none;
+}
 
 /* Callout */
 
 .callout-background {
     height: 85vh;
-    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1217.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,9 +71,25 @@
     left: 0;
     height: 85vh;
     width: 100%;
-    background-color: rgba(41, 44, 121, 0.5);
+    background-color: rgba(41, 44, 121, 0.7);
 }
 
 .jumbotron {
     margin-top: 120px;
+    background: transparent;
 }
+
+/* Forms */
+
+form {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    color: #424242;
+}
+
+.form-label {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #202020;
+}
+
