@@ -59,7 +59,7 @@
 /* Callout */
 
 .callout-background {
-    height: 100vh;
+    height: 80vh;
     background: url(../images/IMG_1217.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -75,14 +75,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: rgba(41, 44, 121, 0.7);
 }
 
 
 .jumbotron {
-    margin-top: 25vh;
+    margin-top: 20vh;
     background: transparent;
 }
 
@@ -125,12 +125,18 @@
     background-color: rgba(41, 44, 121, 0.8);
 } 
 
-.about-bg-overlay::before {
+/* .about-bg-overlay::before {
   content: '';
   position: fixed;
   width: inherit;
   height: inherit;
   background: rgba(150, 150, 150, .45);
+} */
+
+#video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -152,7 +158,17 @@ form {
 
 @media only screen and (max-height: 414px) {
   
-  .jumbotron p {
-    display: none;
-  }
+   .jumbotron p {
+       display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #video-player {
+        width: 100%    !important;
+        height: auto   !important;
+    }
+
 }
