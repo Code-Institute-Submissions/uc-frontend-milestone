@@ -114,6 +114,17 @@
     background-color: rgba(41, 44, 121, 0.8);
 }
 
+.about-text {
+    overflow-x: hidden; 
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+.about-text::-webkit-scrollbar {
+  display: none;
+
+}
+
 /* Forms */
 
 form {
