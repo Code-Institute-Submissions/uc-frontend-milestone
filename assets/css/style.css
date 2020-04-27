@@ -93,7 +93,7 @@
 /* About */
 
 .about-background {
-    height: 100vh;
+    height: 80vh;
     background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -105,15 +105,6 @@
     position: relative;
 }
 
-.about-bg-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(41, 44, 121, 0.8);
-}
-
 .about-text {
     overflow-x: hidden; 
     overflow-y: scroll;
@@ -121,9 +112,27 @@
 }
 
 .about-text::-webkit-scrollbar {
-  display: none;
-
+    display: none;
 }
+
+ .about-bg-overlay { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(41, 44, 121, 0.8);
+} 
+
+.about-bg-overlay::before {
+  content: '';
+  position: fixed;
+  width: inherit;
+  height: inherit;
+  background: rgba(150, 150, 150, .45);
+}
+
 
 /* Forms */
 
