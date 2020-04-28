@@ -2,9 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:200,300,400,600|Raleway:200,300,400,600&display=swap');
 
-/* Colours */
+/* Padding and margins */
 
+.about-paragraph {
+    padding: 10px 20px;
+    margin: 0;
+}
 
+.about-list {
+    padding: 10px 10px 10px 20px;
+    margin: 0 10px 10px 20px;
+}
+
+.sub-head-spacing {
+    margin: 10px 0px 10px 0px;
+}
+
+.personalTraining-form-margin {
+    margin-bottom: 30px;
+}
 
 /* Text */
 
@@ -12,6 +28,7 @@
     font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #fafaff;
+    margin: 10px 0 10px 0;
 }
 
 .contrast-paragraph {
@@ -24,6 +41,7 @@
     font-family: "Lato", sans-serif;
     color: #292c79;
     font-weight: 200;
+    margin: 20px 0 10px 0;
 }
 
 .sub-header {
@@ -43,7 +61,7 @@
 .navbar-brand {
     font-family: "Lato", sans-serif;
     color: #292c79 !important;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .navbar li {
@@ -80,7 +98,6 @@
     background-color: rgba(41, 44, 121, 0.7);
 }
 
-
 .jumbotron {
     margin-top: 20vh;
     background: transparent;
@@ -99,12 +116,20 @@
 
 .modal-form {
     margin: 0px 20px 30px;
+    text-align: left;
 }
 
 .form-check-label {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #292c79;
+}
+
+/* Personal Training */
+
+.personalTraining-form {
+    margin: 0px 20px 30px;
+    text-align: left;
 }
 
 /* About */
@@ -146,15 +171,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px 0px 20px 0px;
 }
 
 
-/* Forms */
+/* Form fonts */
 
 form {
     font-family: "Raleway", sans-serif;
     font-weight: 200;
-    color: ##202020;
+    color: #202020;
 }
 
 .form-label {
@@ -167,7 +193,7 @@ form {
 
 .btn-block {
     background-color: #ffb300;
-    border: none;
+    border: 4px solid #ffb300;
     font-family: "Lato", sans-serif;
     color: #292c79;
     text-transform: uppercase;
@@ -177,6 +203,16 @@ form {
 .btn-block:hover {
     background-color: #ffd46f;
 }
+
+btn-personalTraining {
+    background-color: #ffb300;
+    border: 4px solid #ffb300;
+    font-family: "Lato", sans-serif;
+    color: #292c79;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 
 /* Media queries */
 
