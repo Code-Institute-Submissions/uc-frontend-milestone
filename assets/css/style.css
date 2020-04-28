@@ -86,8 +86,25 @@
     background: transparent;
 }
 
-.invisible {
-    border: none;
+.modal-header {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    color: #292c79;
+}
+
+.modal-body {
+    font-family: "Raleway", sans-serif;
+    color: #202020;
+}
+
+.modal-form {
+    margin: 0px 20px 30px;
+}
+
+.form-check-label {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #292c79;
 }
 
 /* About */
@@ -125,14 +142,6 @@
     background-color: rgba(41, 44, 121, 0.8);
 } 
 
-/* .about-bg-overlay::before {
-  content: '';
-  position: fixed;
-  width: inherit;
-  height: inherit;
-  background: rgba(150, 150, 150, .45);
-} */
-
 #video-player {
     display: flex;
     justify-content: center;
@@ -145,13 +154,28 @@
 form {
     font-family: "Raleway", sans-serif;
     font-weight: 200;
-    color: #424242;
+    color: ##202020;
 }
 
 .form-label {
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    color: #202020;
+    color: #292c79;
+}
+
+/* Buttons */
+
+.btn-block {
+    background-color: #ffb300;
+    border: none;
+    font-family: "Lato", sans-serif;
+    color: #292c79;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn-block:hover {
+    background-color: #ffd46f;
 }
 
 /* Media queries */
