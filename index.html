@@ -44,13 +44,16 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="jumbotron text-center">
-							<h1 class="contrast-header jumbotronHeader-spacing">Want to be stronger, fitter, happier?</h1>
+							<h1 class="contrast-header jumbotronHeader-spacing jumbotron-header">Want to be stronger,
+								fitter, happier?</h1>
 
-							<p class="contrast-paragraph about-paragraph">Personal Training in the heart of Blackrock</p>
-							<p class="contrast-paragraph about-paragraph">Private gym with a friendly and supportive personal trainer
+							<p class="contrast-paragraph about-paragraph jumbotron-paragraph">Personal Training in the
+								heart of Blackrock</p>
+							<p class="contrast-paragraph about-paragraph jumbotron-paragraph">Private gym with a
+								friendly and supportive personal trainer
 							</p>
 							<div class="row justify-content-center btn-spacing">
-								<div class="col-12 col-sm-8 col-md-6 col-lg-3">
+								<div class="col-10 col-sm-8 col-md-6 col-lg-3">
 									<button type="button" class="btn btn-block" data-toggle="modal" data-target="#freeTrialModal">Trial for free</button>
 								</div>
 							</div>
@@ -69,7 +72,6 @@
 										<div class="modal-body">
 											<p>You get one free consultation AND two free personal traning sessions</p>
 										</div>
-
 										<form>
 											<div class="form-group modal-form">
 												<label for="freeTrialModal-fname" class="form-label">First name</label>
@@ -84,10 +86,10 @@
 													<input type="checkbox" class="form-check-input" id="contactConfirmation">
 													<label class="form-check-label" for="contactConfirmation">*I am happy to be contacted by Counterpoint Fitness about trialling the service</label>
 												</div>
+												<div class="modal-footer">
+													<button type="submit" class="btn btn-block">Claim my free sessions</button>
+												</div>
 										</form>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-block">Claim my free sessions</button>
-										</div>
 									</div>
 								</div>
 							</div>
@@ -141,22 +143,26 @@
 			anything, you can claim a
 			free consultation and two sessions by filling in the form below - please also state what your goals are and
 			what help you feel you need.</p>
-		<form class="personalTraining-form">
-			<div class="form-group">
-				<label for="about-form" class="form-label">Name</label>
-				<input type="email" class="form-control" id="personalTraining-name" placeholder="name@example.com">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-8 col-lg-6">
+				<form class="personalTraining-form">
+					<div class="form-group">
+						<label for="about-form" class="form-label">Name</label>
+						<input type="email" class="form-control" id="personalTraining-name" placeholder="name@example.com">
             </div>
-				<div class="form-group">
-					<label for="about-form" class="form-label">Email address</label>
-					<input type="email" class="form-control" id="personalTraining-email" placeholder="name@example.com">
-					<small id="emailhelp2" class="form-text text-muted">We will not share your email with anyone</small>
-				</div>
-				<div class="form-group personalTraining-form-margin">
-					<label for="about-form" class="form-label">Message</label>
-					<textarea class="form-control" id="personalTraining-msg" rows="3"></textarea>
-				</div>
-				<button type="submit" class="btn btn-block">Send message</button>
-		</form>
+						<div class="form-group">
+							<label for="about-form" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="personalTraining-email" placeholder="name@example.com">
+							<small id="emailhelp2" class="form-text text-muted">We will not share your email with anyone</small>
+						</div>
+						<div class="form-group personalTraining-form-margin">
+							<label for="about-form" class="form-label">Message</label>
+							<textarea class="form-control" id="personalTraining-msg" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-block">Send message</button>
+				</form>
+			</div>
+		</div>
 	</section>
 
 	<section id="about" class="container-fluid about-background about-text">
