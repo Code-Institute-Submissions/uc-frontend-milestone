@@ -190,6 +190,31 @@
     padding: 20px 0px 20px 0px;
 }
 
+/* Contact */
+
+.contact-background {
+    height: 80vh;
+    background: url(../images/IMG_1283.JPG) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+}    
+
+.contact-bg-overlay { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(41, 44, 121, 0.8);
+} 
 
 /* Form fonts */
 
@@ -265,3 +290,15 @@ form {
     }
 
 }
+
+@media only screen and (min-width: 1280px) {
+
+    .jumbotron-header {
+    font-size: 4vw;
+}
+   .jumbotron-paragraph {
+    font-size: 2vw;
+}
+
+}
+
