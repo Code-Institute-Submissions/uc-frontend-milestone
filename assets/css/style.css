@@ -194,7 +194,7 @@
 
 .contact-background {
     height: 80vh;
-    background: url(../images/IMG_1283.JPG) no-repeat;
+    background: url(../images/IMG_1283.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -202,7 +202,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
     
 }    
 
@@ -215,6 +215,23 @@
     background-size: cover;
     background-color: rgba(41, 44, 121, 0.8);
 } 
+
+.contact-form {
+    margin: 0px 20px 30px;
+    text-align: left;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Form fonts */
 
@@ -263,8 +280,15 @@ form {
    .jumbotron-paragraph {
     font-size: 4.25vw;
 }
+   .mapouter {
+    display: none;
 
 }
+}
+
+
+
+
 
 @media only screen and (max-height: 900px) {
   

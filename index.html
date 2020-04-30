@@ -148,11 +148,11 @@
 				<form class="personalTraining-form">
 					<div class="form-group">
 						<label for="about-form" class="form-label">Name</label>
-						<input type="email" class="form-control" id="personalTraining-name" placeholder="name@example.com">
+						<input type="email" class="form-control" id="personalTraining-name" placeholder="Name">
             </div>
 						<div class="form-group">
 							<label for="about-form" class="form-label">Email address</label>
-							<input type="email" class="form-control" id="personalTraining-email" placeholder="name@example.com">
+							<input type="email" class="form-control" id="personalTraining-email" placeholder="Email address">
 							<small id="emailhelp2" class="form-text text-muted">We will not share your email with anyone</small>
 						</div>
 						<div class="form-group personalTraining-form-margin">
@@ -216,7 +216,7 @@
 
 	</section>
 
-	<section id="gallery">
+	<section id="gallery" class="container-fluid">
 		<h2 class="text-center section-header">Gallery</h2>
 		<div class="row justify-content-center">
 			<div class="col-sm-10 col-lg-8">
@@ -260,46 +260,64 @@
 	<section id="contact" class="container-fluid contact-background about-text">
 		<div class="contact-bg-overlay">
 			<h2 class="text-center contrast-header">Contact</h2>
-
 			<div class="row justify-content-center">
-				<div class="col-sm-6">
-					<div class="mapouter">
-						<div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
-								src="https://maps.google.com/maps?q=counterpoint%20fitness&t=&z=13&ie=UTF8&iwloc=&output=embed"
-								frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-								href="https://www.divi-discount.com">get elegant</a></div>
-						<style>
-							.mapouter {
-								position: relative;
-								text-align: right;
-								height: 400px;
-								width: 400px;
-							}
-
-							.gmap_canvas {
-								overflow: hidden;
-								background: none !important;
-								height: 400px;
-								width: 400px;
-							}
-						</style>
-					</div>
-				</div>
-				<div class="col-sm-6">
+				<div class="col-12">
 					<h4 class="contrast-header">Say hello!</h4>
-					<p class="contrast-paragraph">If you'd like to ask any questions about Counterpoint Fitness and/or
-						personal training (or anything else) please just use the form below. You'll receive a response
-						within 24 hours.</p>
+					<div class="row justify-content-center">
+						<div class="col-12 col-md-8 col-lg-6">
+							<form class="contact-form">
+								<div class="form-group">
+									<label for="contact-form" class="form-label">Name</label>
+									<input type="email" class="form-control" id="contact-form-name" placeholder="Name">
+                                </div>
+									<div class="form-group">
+										<label for="contact-form" class="form-label">Email address</label>
+										<input type="email" class="form-control" id="contact-form-email" placeholder="Email address">
+										<small id="emailhelp3" class="form-text text-muted">We will not share your email with anyone</small>
+									</div>
+									<div class="form-group form-margin">
+										<label for="contact-form" class="form-label">Message</label>
+										<textarea class="form-control" id="contact-form-msg" rows="3"></textarea>
+									</div>
+									<button type="submit" class="btn btn-block">Send message</button>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-    
-    <section>
-    footer
-    </section>
 
-    
+	<section id="footer" class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<img src="assets/images/cflogo.jpg" height="100px" width="100px" alt="Counterpoint Fitness Logo" class="logo">
+    </div>
+			</div>
+			<div class="row">
+				<div class="col-12 text-center">
+					<p>0879966184 • COUNTERPOINT FITNESS, SWEETMAN'S AVENUE, BLACKROCK, SOUTH COUNTY DUBLIN</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<a target="_blank" href="">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<a target="_blank" href="">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<a target="_blank" href="">
+						<i class="fab fa-youtube"></i>
+					</a>
+					<a target="_blank" href="">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+				</div>
+			</div>
+	</section>
+
+
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
