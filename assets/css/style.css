@@ -163,19 +163,6 @@
     position: relative;
 }
 
-/* .about-background {
-    height: 100vh;
-    background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-} */
 
 .about-text {
     overflow-x: hidden; 
@@ -208,7 +195,7 @@
 
 .contact-background {
     height: 80vh;
-    background: url(../images/IMG_1283.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -217,7 +204,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    
+    background-attachment: stretch;
 }    
 
 .contact-bg-overlay { 
