@@ -30,6 +30,10 @@
     margin-bottom: 30px;
 }
 
+.carousel {
+    margin-bottom: 30px;
+}
+
 /* Text */
 
 .contrast-header {
@@ -194,7 +198,7 @@
 /* Contact */
 
 .contact-background {
-    height: 80vh;
+    min-height: 80vh;
     background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -204,15 +208,14 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-attachment: stretch;
 }    
 
 .contact-bg-overlay { 
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
-    min-height: 100%;
-    width: 100%;
+    min-height: 80vh;
+    min-width: 100vw;
     background-size: cover;
     background-color: rgba(41, 44, 121, 0.8);
 } 
@@ -226,6 +229,11 @@
 
 #footer {
     text-align: center;
+    margin: 0px;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .logo {
@@ -281,15 +289,8 @@ form {
    .jumbotron-paragraph {
     font-size: 4.25vw;
 }
-   .mapouter {
-    display: none;
-
+  
 }
-}
-
-
-
-
 
 @media only screen and (max-height: 900px) {
   
