@@ -4,6 +4,10 @@
 
 /* Padding and margins */
 
+body {
+    overflow-x: hidden !important;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;
