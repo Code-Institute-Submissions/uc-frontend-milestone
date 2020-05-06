@@ -1,4 +1,4 @@
-<img align="center">![Counterpoint Fitness Logo](assets/images/cflogosmall.jpg)
+![Counterpoint Fitness Logo](assets/images/cflogosmall.jpg)
 
 # Counterpoint Fitness | Private Personal Training Studio | Blackrock
 
@@ -60,7 +60,7 @@ This person is very different to the first two types:
 
 - They are not interested in becoming a client
 
-Their goal is: 
+Their goal is likely: 
 
 - To sell a product or service
 
@@ -74,11 +74,38 @@ Each of the five planes of UX was considered carefully.
 
 ### Strategy
 
+The strategy of keeping the website as a single page was to help reduce loading times and bounce rate. There is a call to action at the top of the page and another within a short amount of scrolling. These two calls to action are designed to appeal to visitor types one and two.
+
 ### Scope
 
+The website exists to help potential clients learn about the studio, the service provided and get in contact quickly. 
+
 ### Structure
+
+The structure is designed to prompt visitor types one and two to get in contact quickly. The two parts of the website that prompt this are the first two seen after scrolling down, to minimise the effort required to make contact.
 
 ### Skeleton
 
 ### Surface
 
+The colour scheme chosen matches the studio and branding. This is to ensure a consistent experience from the website to the first trip to the studio. Calls to action are highlighted by large buttons in a bright and contrasting colour.
+
+<hr>
+
+## Current features
+
+1. Fixed navbar that collapses into hamburger button on smaller devices
+2. "Callout" section with hero image and contact form that appears in a modal on tapping button
+3. "Personal Training" section with information on services provided and a contact form
+4. "About" section with a brief story on why the studio exists and a video embedded from Youtube - this section serves to put a human face to the business
+5. "Gallery" section showing a few photos of the facilities
+6. "Contact" section with a form aimed at visitor type three and an embedded Google Map to show location of studio
+7. Footer section with a clickable logo that returns the user to the top, a phone number and address and social links
+
+The callout, about and contact sections have fixed backgrounds showing images of the studio through a tinted overlay. This helps clearly mark each section of the website and also adds visual interest. 
+
+## Future features
+
+- In future a more interesting gallery design with more up to date photos and pictures of clients training would be added
+- Background images are currently static; in the future the images will zoom with scrolling (using CSS and Javascript) to add more visual interest
+- 
