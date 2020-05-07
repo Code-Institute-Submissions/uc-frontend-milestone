@@ -86,6 +86,14 @@ The structure is designed to prompt visitor types one and two to get in contact 
 
 ### Skeleton
 
+The skeleton of the site was sketched out using Balsamiq:
+
+1. [Callout wireframe](wireframes/Callout.png)
+2. [Personal training wireframe](wireframes/PersonalTraining.png)
+3. [About wireframe](wireframes/About.png)
+4. [Gallery wireframe](wireframes/Gallery.png)
+5. [Contact wireframe](wireframes/Contact.png)
+
 ### Surface
 
 The colour scheme chosen matches the studio and branding. This is to ensure a consistent experience from the website to the first trip to the studio. Calls to action are highlighted by large buttons in a bright and contrasting colour.
@@ -107,5 +115,9 @@ The callout, about and contact sections have fixed backgrounds showing images of
 ## Future features
 
 - In future a more interesting gallery design with more up to date photos and pictures of clients training would be added
-- Background images are currently static; in the future the images will zoom with scrolling (using CSS and Javascript) to add more visual interest
-- 
+- Background images are currently static on mobile devices; in the future the images will display in a static/parallax effect like the desktop site while scrolling (using CSS and Javascript)
+
+<hr>
+
+## Deployment
+
