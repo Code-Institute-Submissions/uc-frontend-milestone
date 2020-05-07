@@ -103,7 +103,7 @@ body {
 
 .callout-background {
     height: 80vh;
-    background: url(../images/IMG_1217.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1217.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -278,6 +278,11 @@ body {
 .socialMedia-links i:hover {
     background: #ffb300;
 }
+
+.socialMedia-links a:hover {
+    text-decoration: none;
+}
+
 
 /* Form fonts */
 
