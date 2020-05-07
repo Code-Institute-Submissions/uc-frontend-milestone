@@ -169,7 +169,7 @@ body {
 
 .about-background {
     min-height: 50vh;
-    background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1258.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ body {
 
 .contact-background {
     min-height: 50vh;
-    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1254.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -321,7 +321,7 @@ form {
        display: none;
     }
     .callout-background {
-    height: 90vh;
+    height: 100vh;
     }
 }
 
