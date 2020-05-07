@@ -103,7 +103,7 @@ body {
 
 .callout-background {
     height: 80vh;
-    background: url(../images/IMG_1217.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1217.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -169,7 +169,7 @@ body {
 
 .about-background {
     min-height: 50vh;
-    background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1258.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ body {
 
 .contact-background {
     min-height: 50vh;
-    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
+    background: url(../images/IMG_1254.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -369,6 +369,78 @@ form {
    .jumbotron-paragraph {
     font-size: 2vw;
 }
+
+}
+
+@media (pointer:fine) and (hover) {
+
+.callout-background {
+    height: 80vh;
+    background: url(../images/IMG_1217.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41, 44, 121, 0.7);
+}
+
+.about-background {
+    min-height: 50vh;
+    background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+ .about-bg-overlay { 
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 50vh;
+    min-width: 100vw;
+    background-size: cover;
+    background-color: rgba(41, 44, 121, 0.8);
+} 
+
+.contact-background {
+    min-height: 50vh;
+    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}    
+
+.contact-bg-overlay { 
+    position: relative;
+    top: 0;
+    left: 0;
+    min-height: 50vh;
+    min-width: 100vw;
+    background-size: cover;
+    background-color: rgba(41, 44, 121, 0.8);
+} 
 
 }
 
