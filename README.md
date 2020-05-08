@@ -1,4 +1,4 @@
-![Counterpoint Fitness Logo](assets/images/cflogosmall.jpg)
+<p align="center"><img src="assets/images/cflogosmall.jpg" /></p>
 
 # Counterpoint Fitness | Private Personal Training Studio | Blackrock
 
@@ -6,7 +6,7 @@
 
 <hr>
 
-This is a simple single page website for a private personal training studio. The website is intended to help the business owner generate new business, inform potential clients of the services provided, provide directions to the studio and social media links.
+This is a single page website for a private personal training studio. The website is intended to help the business owner generate new business, inform potential clients of the services provided, provide directions to the studio and social media links.
 
 The goals for the **business owner** are as follows:
 
@@ -110,11 +110,11 @@ The colour scheme chosen matches the studio and branding. This is to ensure a co
 6. "Contact" section with a form aimed at visitor type three and an embedded Google Map to show location of studio
 7. Footer section with a clickable logo that returns the user to the top, a phone number and address and social links
 
-The callout, about and contact sections have fixed backgrounds showing images of the studio through a tinted overlay. This helps clearly mark each section of the website and also adds visual interest. 
+The callout, about and contact sections have fixed backgrounds showing images of the studio through a tinted overlay. This helps clearly mark each section of the website and also adds visual interest. On mobile devices the backgrounds scoll with the page; the intended parallax effect does not work on mobile devices.
 
 ## Future features
 
-- In future a more interesting gallery design with more up to date photos and pictures of clients training would be added
+- In future a more interesting gallery design with more up to date photos and pictures of clients training will be added
 - Background images are currently static on mobile devices; in the future the images will display in a static/parallax effect like the desktop site while scrolling (using CSS and Javascript)
 
 <hr>
@@ -168,19 +168,19 @@ The footer links open in a new browser tab and take the user to the correct web 
 The website has been tested on a variety of different devices.
 
 1. iPhone XR
-  - The website was tested on Safari and Chrome and perfomed as intended in both vertical and horizontal orientations
+   - The website was tested on Safari and Chrome and perfomed as intended in both vertical and horizontal orientations
 
 2. iPad Pro
-  - The website was tested on Safari and performed as intended in both orientations
+   - The website was tested on Safari and performed as intended in both orientations
 
 3. Acer Laptop with touchscreen
-  - The website was tested on Firefox and Chrome and performed as intended in touchscreen mode (fixed background images) and, on attaching the detatchable keyboard/trackpad, also performed as expected (parallax effect started working without refresing the page)
+   - The website was tested on Firefox and Chrome and performed as intended in touchscreen mode (fixed background images) and, on attaching the detatchable keyboard/trackpad, also performed as expected (parallax effect started working without refreshing the page)
 
-4. 21.5 inch iMac with 1080p displayed
-  - The website performed as intended on Chrome and Safari
+4. 21.5 inch iMac with 1080p display
+   - The website performed as intended on Chrome and Safari
 
 5. iPhone 5, 6/7/8, 6/7/8 plus, iPad, various android phones, laptops and a 4K monitor were all simulated in Chrome Developer Tools to check for responsiveness
-  - All performed as intended
+   - All performed as intended
 
 <hr>
 
@@ -191,3 +191,5 @@ The CSS code to create the clickable logos with the animated change in colour wa
 The CSS code to create the background, overlay and parallax effect on the backgrounds is a tweaked version of the code in this [Code Institute tutorial.](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/04-BeyondBootstrap/01-updating_our_callout/css/style.css)
 
 The code to ensure the full width Bootstrap buttons scale properly on different devices was based on the work of [Travis Horn.](https://travishorn.com/responsive-buttons-with-bootstrap-7c2a7c144308)
+
+Thanks to my mentor, Brian Macharia, for his help in this module.
