@@ -128,6 +128,7 @@ The project was deployed by:
 3. Scrolling down to the Github Pages section
 4. Selecting "master branch" from the Source dropdown menu
 5. The link to the site was be displayed once the page automatically refreshed
+6. The site can be accessed on [Github Pages](https://allyporwal.github.io/uc-frontend-milestone/) and it will update automatically with every new commit to the master branch 
 
 The repository can be cloned by:
 
@@ -147,8 +148,46 @@ The repository can be cloned by:
 - [Font Awesome](https://www.fontawesome.com/) was used for the social link icons at the bottom of the site
 - [Gitpod](https://www/gitpod.io/) was the IDE used for the project
 - [Google Fonts](https://fonts.google.com) provided the fonts chosen for the project
+- The video was embedded from [Youtube](https://www.youtube.com/)
+- The code for the map was generated on [Maps.ie](https://www.maps.ie/create-google-map/)
 
 <hr>
 
 ## Tests perfomed
 
+The HTML and CSS was checked using [W3C Validation](https://validator.w3.org/). The CSS passed without issue. The HTML has a number of errors highlighted in the embed code of the Youtube video and in the embedded Google Maps. In future iterations of the site these errors will be looked at in more detail and fixed if possible - the errors do not appear to affect the functionality of the website in any of the tests that have been run.
+
+All the navbar links and the collapsable navbar function as intended. Tapping on a link in the navbar makes the page jump instantly to the corresponding section. The user can return to the top of the page by clicking the logo in the footer. 
+
+The modal in the callout section appears as intended and disappears on tapping the "x" button in the top right. 
+
+Each form has correct inline validation. If a user tries to submit a form with an invalid email address the form will not submit and there must also be an entry into the "name" field.
+
+The footer links open in a new browser tab and take the user to the correct web address.
+
+The website has been tested on a variety of different devices.
+
+1. iPhone XR
+  - The website was tested on Safari and Chrome and perfomed as intended in both vertical and horizontal orientations
+
+2. iPad Pro
+  - The website was tested on Safari and performed as intended in both orientations
+
+3. Acer Laptop with touchscreen
+  - The website was tested on Firefox and Chrome and performed as intended in touchscreen mode (fixed background images) and, on attaching the detatchable keyboard/trackpad, also performed as expected (parallax effect started working without refresing the page)
+
+4. 21.5 inch iMac with 1080p displayed
+  - The website performed as intended on Chrome and Safari
+
+5. iPhone 5, 6/7/8, 6/7/8 plus, iPad, various android phones, laptops and a 4K monitor were all simulated in Chrome Developer Tools to check for responsiveness
+  - All performed as intended
+
+<hr>
+
+## Credits
+
+The CSS code to create the clickable logos with the animated change in colour was taken from a [Code Institute tutorial.](https://github.com/Code-Institute-Org/ucd-resume/blob/master/assets/css/style.css)
+
+The CSS code to create the background, overlay and parallax effect on the backgrounds is a tweaked version of the code in this [Code Institute tutorial.](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/blob/master/04-BeyondBootstrap/01-updating_our_callout/css/style.css)
+
+The code to ensure the full width Bootstrap buttons scale properly on different devices was based on the work of [Travis Horn.](https://travishorn.com/responsive-buttons-with-bootstrap-7c2a7c144308)
