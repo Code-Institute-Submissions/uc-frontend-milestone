@@ -16,7 +16,7 @@
 	<!-- NAVBAR -->
 	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 		<a class="navbar-brand" href="index.html">Counterpoint Fitness</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSectionLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSectionLinks" aria-controls="navbarSectionLinks" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 		<div class="collapse navbar-collapse" id="navbarSectionLinks">
@@ -38,7 +38,7 @@
 	</nav>
 
 	<!-- Callout -->
-	<section class="container-fluid callout-background">
+	<section class="container-fluid callout-background" id="callout">
 		<div class="callout-container">
 			<div class="callout-bg-overlay">
 				<div class="row">
@@ -59,7 +59,7 @@
 							</div>
 							<!-- Modal -->
 							<div class="modal fade" id="freeTrialModal" tabindex="-1" role="dialog"
-								aria-labelledby="exampleModalLabel" aria-hidden="true">
+								aria-labelledby="freeTrialModal" aria-hidden="true">
 								<div class="modal-dialog" role="document">
 									<div class="modal-content">
 										<div class="modal-header">
@@ -153,16 +153,16 @@
 			<div class="col-12 col-md-10 col-lg-6">
 				<form class="personalTraining-form">
 					<div class="form-group">
-						<label for="about-form" class="form-label">Name</label>
+						<label for="personalTraining-name" class="form-label">Name</label>
 						<input type="email" class="form-control" id="personalTraining-name">
             </div>
 						<div class="form-group">
-							<label for="about-form" class="form-label">Email address</label>
+							<label for="personalTraining-email" class="form-label">Email address</label>
 							<input type="email" class="form-control" id="personalTraining-email">
 							<small id="emailhelp2" class="form-text text-muted">We will not share your email with anyone</small>
 						</div>
 						<div class="form-group personalTraining-form-margin">
-							<label for="about-form" class="form-label">Message</label>
+							<label for="personalTraining-msg" class="form-label">Message</label>
 							<textarea class="form-control" id="personalTraining-msg" rows="3"></textarea>
 						</div>
 						<button type="submit" class="btn btn-block">Send message</button>
@@ -273,16 +273,16 @@
 						please use the form below. You will receive a response within 24 hours.</p>
 					<form class="contact-form">
 						<div class="form-group">
-							<label for="contact-form" class="form-label">Name</label>
+							<label for="contact-form-name" class="form-label">Name</label>
 							<input type="email" class="form-control" id="contact-form-name">
                                 </div>
 							<div class="form-group">
-								<label for="contact-form" class="form-label">Email address</label>
+								<label for="contact-form-email" class="form-label">Email address</label>
 								<input type="email" class="form-control" id="contact-form-email">
 								<small id="emailhelp3" class="form-text text-muted">We will not share your email with anyone</small>
 							</div>
 							<div class="form-group form-margin">
-								<label for="contact-form" class="form-label">Message</label>
+								<label for="contact-form-msg" class="form-label">Message</label>
 								<textarea class="form-control" id="contact-form-msg" rows="3"></textarea>
 							</div>
 							<button type="submit" class="btn btn-block">Send message</button>
@@ -303,8 +303,8 @@
 
 	<footer class="container-fluid">
 		<div class="row">
-			<div class="col-12"><a href="#index.html">
-					<img src="assets/images/cflogo.jpg" height="100px" width="100px" alt="Counterpoint Fitness Logo" class="logo"></a>
+			<div class="col-12"><a href="#callout">
+					<img src="assets/images/cflogo.jpg" height="100" width="100" alt="Counterpoint Fitness Logo" class="logo"></a>
 			</div>
 		</div>
 		<div class="row">
