@@ -103,7 +103,7 @@ body {
 
 .callout-background {
     height: 80vh;
-    background: url(../images/IMG_1217.JPG) no-repeat center center;
+    background: url(../images/client_and_trainer.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -169,7 +169,7 @@ body {
 
 .about-background {
     min-height: 50vh;
-    background: url(../images/IMG_1258.JPG) no-repeat center center;
+    background: url(../images/studio_image_rig.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ body {
 
 .contact-background {
     min-height: 50vh;
-    background: url(../images/IMG_1254.JPG) no-repeat center center;
+    background: url(../images/studio_image_front.JPG) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -238,7 +238,7 @@ body {
 
 /* Footer */
 
-#footer {
+footer {
     text-align: center;
     margin: 0px;
     position: relative;
@@ -313,7 +313,13 @@ form {
     background-color: #ffd46f;
 }
 
-/* Media queries */
+/* Media queries and width constraint*/
+
+.lg-monitor {
+    max-width: 1920px;
+    align-items: center;
+    margin: 0 auto;
+}
 
 @media only screen and (max-height: 414px) {
   
@@ -376,7 +382,7 @@ form {
 
 .callout-background {
     height: 80vh;
-    background: url(../images/IMG_1217.JPG) no-repeat center center fixed;
+    background: url(../images/client_and_trainer.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -398,7 +404,7 @@ form {
 
 .about-background {
     min-height: 50vh;
-    background: url(../images/IMG_1258.JPG) no-repeat center center fixed;
+    background: url(../images/studio_image_rig.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -421,7 +427,7 @@ form {
 
 .contact-background {
     min-height: 50vh;
-    background: url(../images/IMG_1254.JPG) no-repeat center center fixed;
+    background: url(../images/studio_image_front.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

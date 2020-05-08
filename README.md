@@ -74,7 +74,7 @@ Each of the five planes of UX was considered carefully.
 
 ### Strategy
 
-The strategy of keeping the website as a single page was to help reduce loading times and bounce rate. There is a call to action at the top of the page and another within a short amount of scrolling. These two calls to action are designed to appeal to visitor types one and two.
+The strategy of keeping the website as a single page was to help reduce loading times and bounce rate.
 
 ### Scope
 
@@ -88,11 +88,11 @@ The structure is designed to prompt visitor types one and two to get in contact 
 
 The skeleton of the site was sketched out using Balsamiq:
 
-1. [Callout wireframe](wireframes/Callout.png)
-2. [Personal training wireframe](wireframes/PersonalTraining.png)
-3. [About wireframe](wireframes/About.png)
-4. [Gallery wireframe](wireframes/Gallery.png)
-5. [Contact wireframe](wireframes/Contact.png)
+1. [Callout wireframe](https://github.com/allyporwal/uc-frontend-milestone/blob/master/wireframes/Callout.png?raw=true)
+2. [Personal training wireframe](https://github.com/allyporwal/uc-frontend-milestone/blob/master/wireframes/PersonalTraining.png?raw=true)
+3. [About wireframe](https://github.com/allyporwal/uc-frontend-milestone/blob/master/wireframes/About.png?raw=true)
+4. [Gallery wireframe](https://github.com/allyporwal/uc-frontend-milestone/blob/master/wireframes/Gallery.png?raw=true)
+5. [Contact wireframe](https://github.com/allyporwal/uc-frontend-milestone/blob/master/wireframes/Contact.png?raw=true)
 
 ### Surface
 
@@ -120,4 +120,35 @@ The callout, about and contact sections have fixed backgrounds showing images of
 <hr>
 
 ## Deployment
+
+The project was deployed by:
+
+1. Going to the [repository on Github](https://github.com/allyporwal/uc-frontend-milestone)
+2. Clicking on the settings button at the top right
+3. Scrolling down to the Github Pages section
+4. Selecting "master branch" from the Source dropdown menu
+5. The link to the site was be displayed once the page automatically refreshed
+
+The repository can be cloned by:
+
+1. Going to the [repository on Github](https://github.com/allyporwal/uc-frontend-milestone)
+2. Clicking on the "Clone or download" button
+3. Copying the link that is then displayed
+4. In your IDE, ensure that you are in the directory that you would like the clone to appear in
+5. Type "git clone" into the terminal and paste the link
+6. Press enter and the repository will be cloned into your chosen directory
+
+<hr>
+
+## Technologies used 
+
+- HTML and CSS 
+- [Bootstrap 4](https://getbootstrap.com/) was used to create key elements of the site (jumbotron, navbar, animations and more) and to ensure a responsive layout
+- [Font Awesome](https://www.fontawesome.com/) was used for the social link icons at the bottom of the site
+- [Gitpod](https://www/gitpod.io/) was the IDE used for the project
+- [Google Fonts](https://fonts.google.com) provided the fonts chosen for the project
+
+<hr>
+
+## Tests perfomed
 
