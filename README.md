@@ -149,7 +149,6 @@ The repository can be cloned by:
 - [Gitpod](https://www/gitpod.io/) was the IDE used for the project
 - [Google Fonts](https://fonts.google.com) provided the fonts chosen for the project
 - The video was embedded from [Youtube](https://www.youtube.com/)
-- The code for the map was generated on [Maps.ie](https://www.maps.ie/create-google-map/)
 
 <hr>
 
