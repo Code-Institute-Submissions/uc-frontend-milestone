@@ -107,8 +107,8 @@ The colour scheme chosen matches the studio and branding. This is to ensure a co
 3. "Personal Training" section with information on services provided and a contact form
 4. "About" section with a brief story on why the studio exists and a video embedded from Youtube - this section serves to put a human face to the business
 5. "Gallery" section showing a few photos of the facilities
-6. "Contact" section with a form aimed at visitor type three and an embedded Google Map to show location of studio
-7. Footer section with a clickable logo that returns the user to the top, a phone number and address and social links
+6. "Contact" section with a form aimed at visitor type three and the address of the studio
+7. Footer section with a clickable logo that returns the user to the top and social links
 
 The callout, about and contact sections have fixed backgrounds showing images of the studio through a tinted overlay. This helps clearly mark each section of the website and also adds visual interest. On mobile devices the backgrounds scoll with the page; the intended parallax effect does not work so the background is not fixed.
 

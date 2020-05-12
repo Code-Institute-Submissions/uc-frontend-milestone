@@ -103,7 +103,7 @@ body {
 
 .callout-background {
     height: 80vh;
-    background: url(../images/client_and_trainer.JPG) no-repeat center center;
+    background: url(../images/client_and_trainer.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -169,7 +169,7 @@ body {
 
 .about-background {
     min-height: 50vh;
-    background: url(../images/studio_image_rig.JPG) no-repeat center center;
+    background: url(../images/studio_image_rig.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -201,7 +201,7 @@ body {
 
 .contact-background {
     min-height: 50vh;
-    background: url(../images/studio_image_front.JPG) no-repeat center center;
+    background: url(../images/studio_image_front.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -382,7 +382,7 @@ form {
 
 .callout-background {
     height: 80vh;
-    background: url(../images/client_and_trainer.JPG) no-repeat center center fixed;
+    background: url(../images/client_and_trainer.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -404,7 +404,7 @@ form {
 
 .about-background {
     min-height: 50vh;
-    background: url(../images/studio_image_rig.JPG) no-repeat center center fixed;
+    background: url(../images/studio_image_rig.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -427,7 +427,7 @@ form {
 
 .contact-background {
     min-height: 50vh;
-    background: url(../images/studio_image_front.JPG) no-repeat center center fixed;
+    background: url(../images/studio_image_front.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
