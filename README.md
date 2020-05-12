@@ -6,7 +6,7 @@
 
 <hr>
 
-This is a single page website for a private personal training studio. The website is intended to help the business owner generate new business, inform potential clients of the services provided, provide directions to the studio and social media links.
+This is a single page website for a private personal training studio. The website is intended to help the business owner generate new business, inform potential clients of the services provided, provide directions to the studio and social media links. It should be noted that I am actually the owner of this business - it is a real and fully operational business.
 
 The goals for the **business owner** are as follows:
 
@@ -110,7 +110,7 @@ The colour scheme chosen matches the studio and branding. This is to ensure a co
 6. "Contact" section with a form aimed at visitor type three and an embedded Google Map to show location of studio
 7. Footer section with a clickable logo that returns the user to the top, a phone number and address and social links
 
-The callout, about and contact sections have fixed backgrounds showing images of the studio through a tinted overlay. This helps clearly mark each section of the website and also adds visual interest. On mobile devices the backgrounds scoll with the page; the intended parallax effect does not work on mobile devices.
+The callout, about and contact sections have fixed backgrounds showing images of the studio through a tinted overlay. This helps clearly mark each section of the website and also adds visual interest. On mobile devices the backgrounds scoll with the page; the intended parallax effect does not work so the background is not fixed.
 
 ## Future features
 
@@ -155,7 +155,7 @@ The repository can be cloned by:
 
 ## Tests perfomed
 
-The HTML and CSS was checked using [W3C Validation](https://validator.w3.org/). The CSS passed without issue. The HTML has a number of errors highlighted in the embed code of the Youtube video and in the embedded Google Maps. In future iterations of the site these errors will be looked at in more detail and fixed if possible - the errors do not appear to affect the functionality of the website in any of the tests that have been run.
+The HTML and CSS was checked using [W3C Validation](https://validator.w3.org/). All code passed without errors.
 
 All the navbar links and the collapsable navbar function as intended. Tapping on a link in the navbar makes the page jump instantly to the corresponding section. The user can return to the top of the page by clicking the logo in the footer. 
 

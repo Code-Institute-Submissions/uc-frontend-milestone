@@ -231,8 +231,9 @@ body {
     color: #fafaff;
 }
 
-#googlemap {
-    margin-top: 20px;
+.street-address {
+    list-style-type: none;
+    padding-left: 20px;
 }
 
 
